@@ -1,0 +1,78 @@
+.navv{
+  display: flex;
+  justify-content: right;
+  
+}
+
+.logospan{
+  color: red;
+}
+
+.searchh{
+
+ margin-right: 130px ;
+ display: flex;
+}
+
+.logolink{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.logolink:hover{
+  color: aliceblue;
+}
+
+.inp{
+
+ height: 50px;
+ width: 300px;
+ margin-top: 14px;
+ border: 1px solid black;
+ padding-left: 20px;
+}
+
+.inpsearch{
+  width: 50px;
+  height: 50px;
+  margin-top: 14px;
+  border: 1px solid black;
+}
+
+.logo{
+  color: wheat;
+  margin-right: 50px ;
+  margin-top: 18px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #fff;
+    color:black;
+    border-radius: 7px;
+  }
+
+  .zzz{
+    z-index: 1;
+  }

@@ -1,0 +1,70 @@
+
+
+.containers{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 0px auto auto auto;
+    background-color: #F1E1E4;
+    
+  }
+
+  .colorr{
+  background-color:  #111111;
+  color: aliceblue;
+  }
+
+  .colorr:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .one{
+   background-color: black;
+   
+  grid-column: 1/-1;
+  }
+  
+  .two{
+   background-color: #111111;
+   grid-column: 1/4;
+  }
+  
+  
+  .three{
+   grid-column: 4/-1;
+   position: relative;
+   z-index: 0;
+  }
+  
+ .four{
+   grid-column: 1/-1;
+  }
+
+  .cardd{
+    display: flex;
+  }
+  .marr{
+    margin: 20px;
+    color: #CA3824;
+  }
+  
+  .five{
+   grid-column: 1/-1;
+   height: 400px;
+   background-color: #3A494E;
+   }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .llnk{
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+  

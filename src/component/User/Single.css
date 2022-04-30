@@ -1,0 +1,60 @@
+.Scontainers{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:  auto;
+}
+
+.sone{
+    background-color: wheat;
+  
+    grid-column: 1/6;
+}
+
+.stranding{
+  
+  
+  grid-column: 1/-1;
+
+}
+
+.stwo{
+   
+  
+    grid-column: 6/-1;
+}
+
+
+.sthree{
+   
+    display: block;
+    grid-column: 1/-1;
+}
+
+.cmnt{
+padding-left: 40px;
+margin-top: 80px;
+}
+
+.cmntinput{
+  height: 100px;
+}
+
+.sfour{
+background-color: black;
+height: 400px;
+
+  grid-column: 1/-1;
+}
+
+.mar{
+  margin: 40px;
+}
+
+.sbtnn{
+  background-color: orange;
+  border: 2px solid orange;
+  border-radius: 4px;
+  height: 70px;
+  width: 150px;
+}
