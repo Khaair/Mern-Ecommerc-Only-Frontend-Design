@@ -20,8 +20,11 @@
   width: 200px;
   height: 40px;
   margin-top: 10px;
-  background-color: orange;
+  background-color: #00156A;
   border: 1px solid whitesmoke;
+  color: aliceblue;
+  font-weight: bold;
+  
 }
 .div1{
     display: flex;
@@ -78,28 +81,49 @@
 
 
       .cuponbtn{
-          margin-top: 10px;
-          
-       
-        background-color: green;
+        border: 1px solid #00156A;
+        padding: 6px;
+        font-weight: bold;
+        color: #00156A;
+        border-radius: 4px;
+        transition: 0.7s ease-in-out;
+        background-color:white;
         
-        border-radius: 7px;
-        height: 40px;
-        width: 100px;
-    }
+      } 
+      
+      
+      .cuponbtn:hover{
+        background-color: #00156A;
+        color: aliceblue;
+      }
+
 
       .checkoutbtnn{
-         margin-top: 10px;
-         margin-left: 510px;
-          border: none;
-          background-color: green;
-         
-          border-radius: 7px;
-          height: 40px;
-          width: 100px;
+        border: 1px solid #00156A;
+        padding: 8px;
+        font-weight: bold;
+        color: #00156A;
+        border-radius: 4px;
+        transition: 0.7s ease-in-out;
+        background-color:white;
+        margin-left: 525px;
+        margin-top:5px;
+        width: 100px;
+        height:53px;
+        
+      } 
+      
+      
+      .checkoutbtnn:hover{
+        background-color: #00156A;
+        color: aliceblue;
       }
 
       .llk{
           display: flex;
           
+      }
+
+      .cartpdetails{
+        text-align: justify;
       }

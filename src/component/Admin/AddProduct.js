@@ -99,7 +99,7 @@ export default function AddProduct() {
 
 
 
-                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <button type="submit" className='ordermanagebtn'>Submit</button>
                 </form>
             </div>
 

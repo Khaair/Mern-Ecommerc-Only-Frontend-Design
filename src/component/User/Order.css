@@ -14,3 +14,26 @@ table {
     background-color: black;
     color: white;
   }
+
+  
+
+
+  .orderbtn{
+    border: 1px solid #00156A;
+    padding: 3px;
+    font-weight: bold;
+    color: #00156A;
+    border-radius: 4px;
+    transition: 0.7s ease-in-out;
+    background-color:white;
+    margin-top:-3px;
+    width: 70px;
+    height:40px;
+    
+  } 
+  
+  
+  .orderbtn:hover{
+    background-color: #00156A;
+    color: aliceblue;
+  }

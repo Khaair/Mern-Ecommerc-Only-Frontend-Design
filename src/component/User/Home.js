@@ -13,15 +13,15 @@ function Home() {
         </div>
         <div className="two">
           <ul className="list-group">
-            <li className="list-group-item colorr">Categories</li>
-            <li className="list-group-item colorr ">Electric</li>
-            <li className="list-group-item colorr">Laptop & Computer</li>
-            <li className="list-group-item colorr">Health & Beauty</li>
-            <li className="list-group-item colorr">Mom And Baby</li>
-            <li className="list-group-item colorr">Watches & Sunglasses</li>
-            <li className="list-group-item colorr">Accessories</li>
-            <li className="list-group-item colorr">Home & Living</li>
-            <li className="list-group-item colorr">TGroceries</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}} >Categories</li>
+            <li className="list-group-item colorr" style={{fontWeight:'bold'}}>Electric</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}}>Laptop & Computer</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}}>Health & Beauty</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}}>Mom And Baby</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}}>Watches & Sunglasses</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}}>Accessories</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}}>Home & Living</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}}>TGroceries</li>
 
           </ul>
 
@@ -55,7 +55,7 @@ function Home() {
           </div>
         </div>
         <div className="four">
-          <h3 className='marr'>Feature Product</h3>
+          <h3 className='marr'  style={{fontWeight:'bold'}}>Feature Product</h3>
 
 
           <div className='cardd'>
@@ -75,7 +75,7 @@ function Home() {
             
           </div>
 
-          <h3 className='marr'>NEW ARRIVALS</h3>
+          <h3 className='marr' style={{fontWeight:'bold'}}>New Arrivals</h3>
 
           <div className='cardd'>
             <Link className='llnk' to="/single"><PCard /></Link>
@@ -84,7 +84,7 @@ function Home() {
             <Link className='llnk' to="/single"><PCard /></Link>
           </div>
 
-          <h3 className='marr'>Laptop & Computer</h3>
+          <h3 className='marr' style={{fontWeight:'bold'}}>Laptop & Computer</h3>
 
           <div className='cardd'>
             <Link className='llnk' to="/single"><PCard /></Link>

@@ -2,12 +2,13 @@ import React from 'react'
 import './Home.css'
 import PCard from './PCard';
 import { Link } from "react-router-dom";
+import Footer from './Footer';
 
 export default function Contact() {
   return (
     <div>
               <div className="four">
-          <h3 className='marr'>Offer Product</h3>
+          <h3 className='marr'  style={{fontWeight:'bold'}}>Offer Product</h3>
 
 
           <div className='cardd'>
@@ -27,7 +28,7 @@ export default function Contact() {
 
           </div>
 
-          <h3 className='marr'>NEW ARRIVALS</h3>
+          <h3 className='marr'  style={{fontWeight:'bold'}}>New UpComing Offer</h3>
 
           <div className='cardd'>
             <Link className='llnk' to="/single"><PCard /></Link>
@@ -36,7 +37,7 @@ export default function Contact() {
             <Link className='llnk' to="/single"><PCard /></Link>
           </div>
 
-          <h3 className='marr'>Laptop & Computer</h3>
+          <h3 className='marr'  style={{fontWeight:'bold'}}>Laptop & Computer</h3>
 
           <div className='cardd'>
             <Link className='llnk' to="/single"><PCard /></Link>
@@ -45,6 +46,7 @@ export default function Contact() {
             <Link className='llnk' to="/single"><PCard /></Link>
           </div>
         </div>
+        <Footer/>
     </div>
   )
 }

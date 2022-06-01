@@ -10,25 +10,23 @@ export default function OrderTracking() {
       <div className='otcontainer'>
         <div className='otinnercontainer' >
           <div className='otone'>
-            <h3>Estimated Delibary Time:</h3>
+            <h4>Estimated Delibary Time:<h5> 25 May,2022</h5></h4>
             <div className='otonenn'>
-            <p>Text</p>
-            <p>Text</p>
+            <p style={{textAlign:'justify'}}>Monday, 08:00 am to 10:00 am</p>
             </div>
           
           </div>
 
           <div className='otone'>
-            <h3>Delibary Time:</h3>
+            <h3>Delibary Time:<h5> 25 May,2022</h5></h3>
             <div className='otonenn'>
-            <p>Text</p>
-            <p>Text</p>
+            <p style={{textAlign:'justify'}}>Monday, 08:00 am to 10:00 am</p>
             </div>
           </div>
 
           <div className='otone'>
             <h3>Status:</h3>
-            <button>Pending</button>
+            <button className='orderbtn'> Pending</button>
           </div>
 
         </div>
@@ -45,9 +43,9 @@ export default function OrderTracking() {
 
             </div>
             <div className='llg'>
-            <h3>Title</h3>
+            <h3>Laptop 450 G2</h3>
             
-            <p>Text</p>
+            <p style={{textAlign:'justify'}}>About HP ProBook 450 G3 (T3L12UT) Laptop (Core i5 6th Gen/4 GB/500 GB/Windows 7) ; memory slots, 2 ; ram speed, 1600 Mhz ; capacity, 4 GB ; display type, LED. Graphic processor: Intel HD</p>
             </div>
            
           </div>
@@ -59,9 +57,9 @@ export default function OrderTracking() {
             </div>
 
           <div className='llg'>
-            <h3>Title</h3>
+            <h3>Laptop 450 G3</h3>
             
-            <p>Text</p>
+            <p style={{textAlign:'justify'}}>About HP ProBook 450 G3 (T3L12UT) Laptop (Core i5 6th Gen/4 GB/500 GB/Windows 7) ; memory slots, 2 ; ram speed, 1600 Mhz ; capacity, 4 GB ; display type, LED. Graphic processor: Intel HD</p>
             </div>
 
 
@@ -75,7 +73,7 @@ export default function OrderTracking() {
 
 
 
-        <Link to="/order"><td><button>Back</button></td></Link>
+        <Link to="/order"><td><button className='orderbtn'>Back</button></td></Link>
 
       </div>
 

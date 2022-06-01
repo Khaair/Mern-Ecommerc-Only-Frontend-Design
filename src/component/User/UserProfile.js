@@ -22,7 +22,10 @@ export default function UserProfile() {
           <h6>Status: Pending</h6>
           <h6>Transaction: Pending</h6>
           <h6>Address: Road-11,Jatrabari,Dhaka</h6>
+      <button className="profilebtn">Log Out</button>
+
         </div>
+        
       </div>
 
     </div>

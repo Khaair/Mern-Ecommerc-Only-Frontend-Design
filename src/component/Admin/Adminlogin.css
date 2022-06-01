@@ -1,22 +1,23 @@
 
 
-.paymentbtn{
+
+.adminloginbtn{
     border: 1px solid #00156A;
-    padding: 3px;
+    padding: 8px;
     font-weight: bold;
     color: #00156A;
     border-radius: 4px;
     transition: 0.7s ease-in-out;
     background-color:white;
-    margin-left: 380px;
-    margin-top:344px;
+    
+    margin-top:40px;
     width: 100px;
-    height:45px;
+    height:53px;
     
   } 
   
   
-  .paymentbtn:hover{
+  .adminloginbtn:hover{
     background-color: #00156A;
     color: aliceblue;
   }

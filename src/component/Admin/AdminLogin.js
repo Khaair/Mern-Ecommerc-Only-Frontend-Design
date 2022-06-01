@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import './Adminlogin.css'
+
 
 
 export default function AdminLogin() {
@@ -7,7 +9,7 @@ export default function AdminLogin() {
     <div>
         <div className="div1">
                 <div className="adcontainer">
-                    <h2>Admin Login Form</h2>
+                    <h2 style={{color:'#00156A',fontWeight:'bold'}}>Admin Login Form</h2>
                     <hr></hr>
                     <form>
                         <label className="name">Email</label>
@@ -18,7 +20,7 @@ export default function AdminLogin() {
                         <br />
                         <input className="text" type="password" name placeholder="Enter Password" />
 
-                        <Link to="/deshboard"><button className="btnn">Log in</button></Link>
+                        <Link to="/deshboard"><button className="adminloginbtn">Log in</button></Link>
 
 
 

@@ -34,3 +34,24 @@
     width: 200px;
     margin-left: 300px;
   }
+
+  .profilebtn{
+    border: 1px solid #00156A;
+    padding: 8px;
+    font-weight: bold;
+    color: #00156A;
+    border-radius: 4px;
+    transition: 0.7s ease-in-out;
+    background-color:white;
+    
+    margin-top:15px;
+    width: 100px;
+    height:40px;
+    
+  } 
+  
+  
+  .profilebtn:hover{
+    background-color: #00156A;
+    color: aliceblue;
+  }

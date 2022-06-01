@@ -9,8 +9,8 @@ function Profile() {
 
       <ProfileNav />
       <div className="div1">
-        <div className="lcontainer">
-          <h2>Login Form</h2>
+        <div className="pcontainer">
+          <h2 style={{color:'#00156A',fontWeight:'bold'}}>Login Form</h2>
           <hr></hr>
           <form>
             <label className="name">Email</label>
@@ -21,8 +21,8 @@ function Profile() {
             <br />
             <input className="text" type="password" name placeholder="Enter Password" />
             <br></br>
-
-            <Link to="/deshboard"><button className="lbtnn">Log in</button></Link>
+            <Link to="/"><button className="loginbtnn">Log in</button></Link>
+          
           </form>
         </div>
       </div>

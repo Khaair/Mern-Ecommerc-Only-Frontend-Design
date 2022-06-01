@@ -32,7 +32,7 @@ export default function EditUserProfile() {
       <br />
      
     
-      <button className="btn">UPDATE</button>
+      <button className='ordermanagebtn'>UPDATE</button>
     
 
       

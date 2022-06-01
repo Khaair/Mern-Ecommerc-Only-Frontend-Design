@@ -7,6 +7,10 @@
     font-family: arial;
     margin: 15px;
   }
+
+  .card:hover{
+    color: black;
+  }
   
   .price {
     color: grey;

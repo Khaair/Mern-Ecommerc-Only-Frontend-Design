@@ -1,17 +1,20 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import './Payment.css'
+
 
 export default function Payment() {
     return (
         <div>
             <div className="div1">
                 <div className="ccontainerss">
-                    <h2>Payment System</h2>
-
+                    <h2 style={{color:'black',fontWeight:'bold'}}>Payment System</h2>
+                    <hr></hr>
+                <Link to="/order"><button className='paymentbtn'>Order</button></Link>
+                  
                 </div>
                 
                 </div>
-                <Link to="/order"><button className='checkoutbtn'>Order</button></Link> 
 
 
         </div>

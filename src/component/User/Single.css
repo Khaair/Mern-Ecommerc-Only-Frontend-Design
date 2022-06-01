@@ -58,3 +58,19 @@ height: 400px;
   height: 70px;
   width: 150px;
 }
+
+.commentbtn{
+  border: 1px solid #00156A;
+  padding: 8px;
+  font-weight: bold;
+  color: #00156A;
+  border-radius: 4px;
+  transition: 0.7s ease-in-out;
+  
+} 
+
+
+.commentbtn:hover{
+  background-color: #00156A;
+  color: aliceblue;
+}

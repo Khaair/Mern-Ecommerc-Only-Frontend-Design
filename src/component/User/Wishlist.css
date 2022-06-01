@@ -16,12 +16,16 @@
   }
   
   .wishbtnn{
-    margin-left: 250px;
-    width:200px;
+    margin-left: 350px;
+    padding:8px;
+    width: auto;
     height: 40px;
     margin-top: 10px;
-    background-color: orange;
+    background-color: #00156A;
     border: 1px solid whitesmoke;
+    color: aliceblue;
+    font-weight: bold;
+    
   }
   .div1{
       display: flex;

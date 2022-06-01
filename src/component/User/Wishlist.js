@@ -18,7 +18,7 @@ export default function Wishlist() {
                     <div className='addtocartone'>
                         <img className='addtocartimg' src='img/p1.jpg' alt='loo' />
                         <div className='adddetails'>
-                            <h3>Title</h3>
+                            <h3>Redmi Note 10 Pro</h3>
                             <p>Since then, CPM has evolved as workplace practices and technologies have ... and forecasting data -- such as revenue, expenses and inventory reports.</p>
                         </div>
 
@@ -31,7 +31,7 @@ export default function Wishlist() {
                     <div className='addtocartone'>
                         <img className='addtocartimg' src='img/p1.jpg' alt='loo' />
                         <div className='adddetails'>
-                            <h3>Title</h3>
+                            <h3>Redmi Note+</h3>
                             <p>Since then, CPM has evolved as workplace practices and technologies have ... and forecasting data -- such as revenue, expenses and inventory reports.</p>
                         </div>
 

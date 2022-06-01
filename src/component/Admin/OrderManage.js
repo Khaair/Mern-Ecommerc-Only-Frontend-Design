@@ -6,7 +6,7 @@ export default function OrderManage() {
     <>
 
       <div className='orcontainerss' >
-        <h2>Order Manage </h2>
+        <h2 style={{color:'black',fontWeight:'bold'}}>Order Manage </h2>
         <table>
           <tbody><tr>
             <th>SL</th>
@@ -19,73 +19,75 @@ export default function OrderManage() {
 
           </tr>
           <tr>
-              <td>Peter</td>
-              <td>Griffin</td>
-              <td>Griffin</td>
+              <td>01</td>
+              <td>x12345tt</td>
+              <td>Pending</td>
             
-              <td>$100</td>
-              <td>Griffin</td>
-              <td>Griffin</td>
+              <td>04.05.2022</td>
               
+              <td><button  className='ordermanagebtn'>Print</button></td>
+              <td>Anywhere in BD</td>
+                             
               <td>
-              <Link to="/editorder"><td><button>Edit</button></td></Link>
+              <Link to="/editorder"><td><button className='ordermanagebtn'>Edit</button></td></Link>
               <i className="fa fa-trash-o" style={{fontSize: '30px', color: 'red'}} />
               </td>
               
              
             </tr>
             <tr>
-              <td>Peter</td>
-              <td>Griffin</td>
-              <td>Griffin</td>
+              <td>02</td>
+              <td>rr33543tu</td>
+              <td>Pending</td>
             
-              <td>$100</td>
-              <td>Griffin</td>
-              <td>Griffin</td>
+              <td>04.05.2022</td>
+              
+              <td><button  className='ordermanagebtn'>Print</button></td>
+              
+              <td>Anywhere in BD</td>
+              
               
               <td>
-              <Link to="/ordertracking"><td><button>Edit</button></td></Link>
+              <Link to="/ordertracking"><td><button className='ordermanagebtn'>Edit</button></td></Link>
               <i className="fa fa-trash-o" style={{fontSize: '30px', color: 'red'}} />
               </td>
               
              
             </tr>
             <tr>
-              <td>Peter</td>
-              <td>Griffin</td>
-              <td>Griffin</td>
+              <td>03</td>
+              <td>x12345tf</td>
+              <td>Delibaried</td>
             
-              <td>$100</td>
-              <td>Griffin</td>
-              <td>Griffin</td>
+              <td>04.05.2022</td>
+              
+              <td><button  className='ordermanagebtn'>Print</button></td>
+              
+              <td>Anywhere in BD</td>
+              
               
               <td>
-              <Link to="/ordertracking"><td><button>Edit</button></td></Link>
+              <Link to="/ordertracking"><td><button className='ordermanagebtn'>Edit</button></td></Link>
               <i className="fa fa-trash-o" style={{fontSize: '30px', color: 'red'}} />
               </td>
               
              
             </tr>
-            <tr>
-              <td>Cleveland</td>
-              <td>Brown</td>
-              <td>$250</td>
-              <td>$100</td>
-              <td>$100</td>
-              <td>$100</td>
-            </tr>
+          
 
             <tr>
-              <td>Peter</td>
-              <td>Griffin</td>
-              <td>Griffin</td>
+              <td>04</td>
+              <td>x12345oo</td>
+              <td>Pending</td>
             
-              <td>$100</td>
-              <td>Griffin</td>
-              <td>Griffin</td>
+              <td>04.05.2022</td>
+              <td><button  className='ordermanagebtn'>Print</button></td>
+              
+              <td>Anywhere in BD</td>
+              
               
               <td>
-              <Link to="/ordertracking"><td><button>Edit</button></td></Link>
+              <Link to="/ordertracking"><td><button className='ordermanagebtn'>Edit</button></td></Link>
               <i className="fa fa-trash-o" style={{fontSize: '30px', color: 'red'}} />
               </td>
               
@@ -94,16 +96,17 @@ export default function OrderManage() {
 
 
             <tr>
-              <td>Peter</td>
-              <td>Griffin</td>
-              <td>Griffin</td>
+              <td>05</td>
+              <td>x12345rr</td>
+              <td>Pending</td>
             
-              <td>$100</td>
-              <td>Griffin</td>
-              <td>Griffin</td>
+              <td>05.04.2022</td>
+              <td><button  className='ordermanagebtn'>Print</button></td>
+              
+              <td>Anywhere in BD</td>
               
               <td>
-              <Link to="/ordertracking"><td><button>Edit</button></td></Link>
+              <Link to="/ordertracking"><td><button className='ordermanagebtn'>Edit</button></td></Link>
               <i className="fa fa-trash-o" style={{fontSize: '30px', color: 'red'}} />
               </td>
               

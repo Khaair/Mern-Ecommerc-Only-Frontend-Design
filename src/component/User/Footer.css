@@ -10,23 +10,28 @@
   }
 
   .fone{
-   grid-column: 1/3;
+   grid-column: 1/4;
    background-color: black;
+   margin-top: 50px;
+   margin-left: 100px;
   }
 
   .ftwo{
-   grid-column: 3/6;
+   grid-column: 4/7;
+   margin-top: 50px;
+   margin-left: 50px;
   }
-
+/* 
   .fthree{
    grid-column: 6/8;
-  }
+  } */
 
   .ffour{
    grid-column: 8/10;
   }
 
   .ffive{
+   margin-top: 50px;
    grid-column: 10/-1;
   }
 
@@ -48,6 +53,8 @@
 
   .iosNandroid{
     display:grid;
+    margin-top: 150px;
+    
   }
 
   .uui .fa {
@@ -89,3 +96,26 @@
     background: #bb0000;
     color: white;
   }
+
+  /* .flinee{
+
+  } */
+
+  .ggi{
+    display: flex;
+  }
+  .flinee{
+    font-weight: bold;
+
+  }
+    
+
+
+  .flinee:hover{
+   color: black;
+   cursor: pointer;
+   background-color: white;
+   font-weight: bold;
+
+  }
+

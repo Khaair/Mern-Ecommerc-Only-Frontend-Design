@@ -16,11 +16,11 @@ export default function Single() {
         </div>
         <div className='stwo'>
           <div className='mar'>
-            <h3 className='llo'>Product Name: Product 01</h3>
+            <h3 className='llo'  style={{fontWeight:'bold'}}>Product Name: Product 01</h3>
             <p>
               Discover 159 free Registered Logo png images with transparent backgrounds.Search more hd transparent Registered Logo image on KindPNG.Search more hd transparent Registered Logo .
             </p>
-            <h3 className='llo'>Current Price: 44556 taka</h3>
+            <h3 className='llo'  style={{fontWeight:'bold'}}>Current Price: 44556 taka</h3>
             <p>
               Discover 159 free Registered Logo png images with transparent backgrounds.Search more hd transparent Registered Logo image on KindPNG.Search more hd transparent Registered Logo .
             </p>
@@ -37,7 +37,7 @@ export default function Single() {
               </select>
               <br></br>
 
-              <button className='sbtnn'>Add to Cart</button>
+              <button className='commentbtn'>Add to Cart</button>
 
 
 
@@ -54,10 +54,10 @@ export default function Single() {
         <div className='sthree'>
          
           <div className='cmnt'>
-          <h1>Comment Section</h1>
+          <h1 style={{color:'#00156A',fontWeight:'bold'}}>Comment Section</h1>
           <input className='cmntinput'></input>
           <br></br>
-          <button style={{marginTop:"40px"}}>Comment</button>
+          <button className='commentbtn' style={{marginTop:"40px"}}>Comment</button>
           </div>
         
         </div>

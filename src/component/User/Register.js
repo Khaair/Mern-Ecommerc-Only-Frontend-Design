@@ -10,7 +10,7 @@ export default function Register() {
 
        <div className="div1">
   <div className="rcontainerss">
-    <h5>Registration Form</h5>
+    <h3 style={{color:'#00156A',fontWeight:'bold'}}>Registration Form</h3>
     <hr></hr>
     <form>
       <label className="name">Name</label>
@@ -21,9 +21,9 @@ export default function Register() {
       <br />
       <input className="text" type="email" name placeholder="Last Name" />
       <br />
-      <label className="name">Mobile Number</label>
+      <label className="name">Password</label>
       <br />
-      <input className="text" type="number" name placeholder="Father Name" />
+      <input className="text" type="password" name placeholder="Father Name" />
       <br />
      
      
