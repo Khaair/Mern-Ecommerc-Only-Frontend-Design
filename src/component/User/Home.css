@@ -66,5 +66,18 @@
   }
 
 
+  @media (max-width: 920px){
+  .two{
+     display:none;
+    }
+
+    .three{
+      display:none;
+    
+    }
+    
+  }
+
+
 
   

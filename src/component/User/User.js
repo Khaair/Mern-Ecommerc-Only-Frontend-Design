@@ -17,12 +17,13 @@ import Order from './Order';
 import OrderTracking from './OrderTracking';
 import UserProfile from './UserProfile';
 import Login from './Login';
+import Navbarthree from './Navbarthree';
 
 
 function User() {
   return (
     <div>
-    
+      {/* <Navbarthree/> */}
       <Navbar/>
         <Routes>
         <Route path="/" element={<Home/>} />
