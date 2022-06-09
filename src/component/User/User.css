@@ -1,0 +1,14 @@
+
+
+
+.responsedivhide{
+    display: none;
+   }
+
+   
+@media (max-width: 968px){
+ 
+    .responsedivhide{
+        display: block;
+       }
+    }

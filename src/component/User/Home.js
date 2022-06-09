@@ -26,6 +26,22 @@ function Home() {
           </ul>
 
         </div>
+
+        <div className="respontwo">
+          <ul className="list-group">
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}} >Top Sell</li>
+            <li className="list-group-item colorr" style={{fontWeight:'bold'}}>Offers</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}}>Laptop & Computer</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}}>Health & Beauty</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}}>Mom And Baby</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}}>Watches & Sunglasses</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}}>Accessories</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}}>Home & Living</li>
+            <li className="list-group-item colorr"  style={{fontWeight:'bold'}}>TGroceries</li>
+
+          </ul>
+
+        </div>
         <div className="three">
           <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-indicators">

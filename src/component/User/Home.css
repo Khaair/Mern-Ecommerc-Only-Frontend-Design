@@ -30,6 +30,31 @@
    background-color: #111111;
    grid-column: 1/4;
   }
+  .respontwo{
+    display: none;
+  }
+
+  
+  @media (max-width: 920px){
+    .respontwo{
+      display:block;
+       grid-column: 1/-1;
+       text-align: center;
+        
+        }
+
+        .two{
+          display:none;
+        }
+      
+        .three{
+          display:none;
+        
+        }
+    
+    
+        
+      }
   
   
   .three{
@@ -44,7 +69,13 @@
 
   .cardd{
     display: flex;
+    margin: 10px;
   }
+  @media (max-width: 968px){
+    .cardd{
+      display: block;
+  }
+}
   .marr{
     margin: 20px;
     color: #CA3824;
@@ -63,20 +94,10 @@
   .llnk{
     text-decoration: none;
     color: black;
+    margin: 10px;
   }
 
 
-  @media (max-width: 920px){
-  .two{
-     display:none;
-    }
-
-    .three{
-      display:none;
-    
-    }
-    
-  }
 
 
 

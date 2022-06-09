@@ -18,12 +18,19 @@ import OrderTracking from './OrderTracking';
 import UserProfile from './UserProfile';
 import Login from './Login';
 import Navbarthree from './Navbarthree';
+import NavbarTwo from './Navbartwo';
+import './User.css'
+
 
 
 function User() {
   return (
     <div>
       {/* <Navbarthree/> */}
+      <div className='responsedivhide'> 
+      <NavbarTwo/>
+      </div>
+
       <Navbar/>
         <Routes>
         <Route path="/" element={<Home/>} />

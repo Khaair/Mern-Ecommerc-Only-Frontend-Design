@@ -76,3 +76,23 @@ ul {
   .zzz{
     z-index: 1;
   }
+
+ 
+
+  @media (max-width: 968px){
+    .responlnk{
+     display: none;
+    }
+}
+
+@media (max-width: 968px){
+  .responseright{
+    margin-left: 1px;
+    margin-top:-9px;
+    }
+    .responserightmar{
+      margin-left: 1px;
+    margin-top:-9px;
+
+     }
+  }
