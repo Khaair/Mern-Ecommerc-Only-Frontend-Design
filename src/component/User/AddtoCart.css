@@ -45,6 +45,23 @@
 
     }
 
+    
+  @media (max-width: 968px){
+    .Addcontainer{
+    width: 420px;
+     
+    }
+.addbtnn{
+  margin-left: 110px;
+  width: 120px;
+  height:50px;
+  margin-bottom: 10px;
+
+ 
+}
+
+  }
+
 
 
 .peraaddtocart{
@@ -98,7 +115,7 @@
       }
 
 
-      .checkoutbtnn{
+      .addcheckoutbtnn{
         border: 1px solid #00156A;
         padding: 8px;
         font-weight: bold;
@@ -114,7 +131,7 @@
       } 
       
       
-      .checkoutbtnn:hover{
+      .addcheckoutbtnn:hover{
         background-color: #00156A;
         color: aliceblue;
       }
@@ -127,3 +144,13 @@
       .cartpdetails{
         text-align: justify;
       }
+
+      
+
+         
+  @media (max-width: 968px){
+    .addcheckoutbtnn{
+      margin-left: 160px;
+     
+    }
+  }

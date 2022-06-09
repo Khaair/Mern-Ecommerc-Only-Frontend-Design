@@ -9,3 +9,13 @@
     height: 40px;
     border: 1px solid blanchedalmond;
 }
+
+@media (max-width: 968px){
+    .pronav{
+        padding-left: 90px;
+    }
+    .pronavbtn{
+        width: 100px;
+        
+    }
+  }

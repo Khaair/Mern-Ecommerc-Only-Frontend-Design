@@ -55,3 +55,27 @@
     background-color: #00156A;
     color: aliceblue;
   }
+
+
+  @media (max-width: 968px){
+    .pone{
+   
+  
+      grid-column: 1/8;
+    }
+    
+    
+    .ptwo{
+     
+      
+      margin-bottom: 20px;
+      grid-column: 8/-1;
+    }
+
+    .imgg{
+      height: 200px;
+      width: 200px;
+      margin-left: 60px;
+    }
+
+  }

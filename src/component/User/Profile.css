@@ -10,4 +10,12 @@
 
     }
 
+    @media (max-width: 968px){
+        .pcontainer{
+          width: 430px;
+          height: 335px;
+          margin-bottom: 20px;
+        }
+      }
+
   

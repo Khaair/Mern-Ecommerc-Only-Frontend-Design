@@ -48,7 +48,7 @@ export default function AddtoCart() {
             <div className="llk">
               <button className="cuponbtn">Submit</button>
               <Link to="/checkout">
-                <button className="checkoutbtnn">Check Out</button>
+                <button className="addcheckoutbtnn">Check Out</button>
               </Link>
             </div>
           </div>

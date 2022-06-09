@@ -31,3 +31,11 @@
         background-color: #00156A;
         color: aliceblue;
       }
+
+      @media (max-width: 968px){
+        .lcontainer{
+          width: 430px;
+          height: 325px;
+          margin-bottom: 20px;
+        }
+      }

@@ -7,7 +7,7 @@ export default function Payment() {
     return (
         <div>
             <div className="div1">
-                <div className="ccontainerss">
+                <div className="pcontainerss">
                     <h2 style={{color:'black',fontWeight:'bold'}}>Payment System</h2>
                     <hr></hr>
                 <Link to="/order"><button className='paymentbtn'>Order</button></Link>

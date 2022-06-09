@@ -4,7 +4,15 @@
     margin-right: 10px;
     text-align: center;
     font-family: arial;
-    width: 100%;
+    width: 300px;
+  }
+
+  @media (max-width: 968px){
+    .card{
+      width: 330px;
+      margin-left: 70px;
+    
+    }
   }
 
 

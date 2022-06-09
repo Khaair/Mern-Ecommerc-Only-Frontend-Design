@@ -1,4 +1,18 @@
+.pcontainerss{
+    
+    
+  width: 550px;
+  height: 510px;
+  background-color: #F2F2F2;
+  padding-left: 30px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  box-shadow: 1px 2px 4px  black;
+  border-radius: 20px;
+  margin-top: 13px;
+  margin-bottom: 20px;
 
+  }
 
 .paymentbtn{
     border: 1px solid #00156A;
@@ -19,4 +33,21 @@
   .paymentbtn:hover{
     background-color: #00156A;
     color: aliceblue;
+  }
+
+
+  @media (max-width: 968px){
+    .pcontainerss{
+        width: 430px;
+        height: 520px;
+        margin-bottom: 30px;
+      }
+
+      .paymentbtn{
+       margin-left: 20px;
+       margin-top: 370px;
+
+       
+      
+      }
   }

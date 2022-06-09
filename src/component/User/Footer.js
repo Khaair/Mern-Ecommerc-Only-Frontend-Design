@@ -40,14 +40,7 @@ function Footer() {
         </div>
 
         <div className="fthree">
-          {/* <ul>
-            <h3>MY ACCOUNT</h3>
-            <a href><li> About</li></a>
-            <a href><li> We are hiring!</li></a>
-            <a href><li> Terms &amp; Conditions</li></a>
-            <a href><li> Privacy Policy</li></a>
-            <a href><li> Terms &amp; Conditions</li></a>
-          </ul> */}
+     
         </div>
 
         <div className="ffour">

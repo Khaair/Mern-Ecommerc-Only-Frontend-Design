@@ -120,3 +120,25 @@
 
   }
 
+
+  @media (max-width: 968px){
+    .fone{
+      grid-column: 1/-1;
+      margin-left: 50px;
+
+      
+     }
+     .ftwo{
+      grid-column: 1/-1;
+      
+     }
+     .ffour{
+      display: none;      
+     }
+     .ffive{
+      margin-left: 50px;
+
+      grid-column: 1/-1;
+      
+     }
+  }

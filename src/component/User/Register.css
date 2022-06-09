@@ -59,3 +59,11 @@
     background-color: #00156A;
     color: aliceblue;
   }
+
+  @media (max-width: 968px){
+    .rcontainerss{
+        width: 430px;
+        height: 520px;
+        margin-bottom: 30px;
+      }
+  }
